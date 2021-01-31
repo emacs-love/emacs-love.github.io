@@ -14,9 +14,7 @@
   (package-refresh-contents)
   (package-install 'use-package))
 
-;; Install and configure dependencies
-(use-package templatel)
-(use-package htmlize)
+(use-package htmlize) ;; syntax highlight
 (use-package weblorg)
 
 ;; Defaults to localhost:8000
