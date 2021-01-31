@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>M-x love</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for("static", file="css/style.css") }}" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,700;1,400&amp;family=Spectral+SC:wght@500&amp;display=swap" rel="stylesheet">
+    <meta name="description" content="Org-mode blog static generator">
+    <meta name="keywords" content="Emacs, org, org-mode, blog, static generator, static blog">
+  </head>
+  <body>
+    <header>
+      <h1>(<3) Emacs Love</h1>
+      <p>A modern emacs collective</p>
+    </header>
+    <main>
+      {% block main %}{% endblock %}
+    </main>
+    <footer>
+      <p>Emacs Love | Made with ♥ and <a href="http://emacs.love/weblorg">weblorg</a></p>
+    </footer>
+  </body>
+</html>
