@@ -10,8 +10,11 @@ A collective of software for Emacs and Org-Mode.")
 
 * Projects
 
+*** [[http://emacs.love/tales][Emacs Tales]]
+    A collection of unexpected stories involving emacs
+
 *** [[http://emacs.love/weblorg][Weblorg]]
     A static HTML generator for Emacs & Org-Mode
 
-*** [[http://emacs.love/tales][Emacs Tales]]
-    A collection of unexpected stories involving emacs
+*** [[http://emacs.love/templatel][templatel]]
+    A templating language for Emacs Lisp
